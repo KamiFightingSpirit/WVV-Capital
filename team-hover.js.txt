@@ -1,0 +1,8 @@
+<script>(function($) {
+      $(document).ready(function() {
+        $('#block-2091ad01016e0c16fbf5').hover(function() {
+        	$( "#block-2091ad01016e0c16fbf5 .thumb-image" ).attr("src","https://static1.squarespace.com/static/5fbc13ab28cdca2d92d13045/t/5fbd6f1fc40cee429f55218e/1606250271337/Jason_Art.jpg");
+        })
+      })
+    })(jQuery);
+</script>
