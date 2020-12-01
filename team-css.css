@@ -46,64 +46,37 @@ a:hover img {
 background-color: #00000; opacity: 0.6; transition: all .3s ease-in-out;}
 */
 
+/* Added to each image to setup hover effect */
+.image-position {
+  position:absolute;
+  left:0;
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+/*Reveals the Art image on Hover (when available)*/
+.thumb-image + noscript + .image-position.loaded:hover {
+  opacity:0;
+}
+
 /* Danielle */
 #block-yui_3_17_2_1_1603915738299_61644 {
   position:relative;
   margin:0 auto;
 }
 
-#block-yui_3_17_2_1_1603915738299_61644 img {
-  position:absolute;
-  left:0;
-  opacity: 1;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-}
-
-#block-yui_3_17_2_1_1603915738299_61644 img.loaded:hover {
-  opacity:0;
-}
-/*Jason Franklin*/
+/*Jason Franklin */
 #block-76b0ced63f31cd9e2342 {
   position:relative;
   margin:0 auto;
 }
 
-#block-76b0ced63f31cd9e2342 img {
-  position:absolute;
-  left:0;
-  opacity: 1;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-}
-
-#block-76b0ced63f31cd9e2342 img.loaded:hover {
-  opacity:0;
-}
-
-
 /*Leslie Lenzo*/
 #block-c941ef6bbc69f7b10dbb {
   position:relative;
   margin:0 auto;
-}
-
-#block-c941ef6bbc69f7b10dbb img {
-  position:absolute;
-  left:0;
-  opacity: 1;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-}
-
-#block-c941ef6bbc69f7b10dbb img.loaded:hover {
-  opacity:0;
 }
 
 /*Stacy Lewis*/
@@ -112,38 +85,10 @@ background-color: #00000; opacity: 0.6; transition: all .3s ease-in-out;}
   margin:0 auto;
 }
 
-#block-yui_3_17_2_1_1604001558666_15429 img {
-  position:absolute;
-  left:0;
-  opacity: 1;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-}
-
-#block-yui_3_17_2_1_1604001558666_15429 img.loaded:hover {
-  opacity:0;
-}
-
 /*Robert Locke*/
 #block-436e86330fcd1f38f7f4 {
   position:relative;
   margin:0 auto;
-}
-
-#block-436e86330fcd1f38f7f4 img {
-  position:absolute;
-  left:0;
-  opacity: 1;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-}
-
-#block-436e86330fcd1f38f7f4 img.loaded:hover {
-  opacity:0;
 }
 
 /*Matt Maurer*/
@@ -152,56 +97,14 @@ background-color: #00000; opacity: 0.6; transition: all .3s ease-in-out;}
   margin:0 auto;
 }
 
-#block-yui_3_17_2_1_1603913892502_66234 img {
-  position:absolute;
-  left:0;
-  opacity: 1;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-}
-
-#block-yui_3_17_2_1_1603913892502_66234 img.loaded:hover {
-  opacity:0;
-}
-
 /*Steve Robinson*/
 #block-8031bea02089f358316e {
   position:relative;
   margin:0 auto;
 }
 
-#block-8031bea02089f358316e img {
-  position:absolute;
-  left:0;
-  opacity: 1;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-}
-
-#block-8031bea02089f358316e img.loaded:hover {
-  opacity:0;
-}
-
 /*Craig Schedler*/
 #block-df36591cc72d1fc5b195 {
   position:relative;
   margin:0 auto;
-}
-
-#block-df36591cc72d1fc5b195 img {
-  position:absolute;
-  left:0;
-  opacity: 1;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-}
-
-#block-df36591cc72d1fc5b195 img.loaded:hover {
-  opacity:0;
 }
