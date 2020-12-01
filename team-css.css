@@ -1,0 +1,207 @@
+/* grayscale home logo gallery images  */
+ #block-yui_3_17_2_1_1570126796766_11179 img {
+    -webkit-filter: grayscale(100%); /*For browser support*/
+   filter: grayscale(100%);
+  }
+
+/* remove hyphens */
+p, h1, h2, h3 {
+    -webkit-hyphens: manual !important;
+       -moz-hyphens: manual !important;
+        -ms-hyphens: manual !important;
+            hyphens: manual !important;
+  }
+
+/* reduce text size of copyright */
+#block-yui_3_17_2_3_1466708796810_10359 {font-size:14px;}
+
+/* hide footer middle block and reduce padding */
+.Footer-blocks--top {
+    padding-bottom: 0px !important;
+}
+.Footer-blocks--middle{
+  display:none;
+ }
+
+/* decrease spacing between image and codeblock on Team page */
+#collection-5d892eca8d2eb93d33c44b48
+  .sqs-block {
+ padding-bottom: 0px !important;
+}
+
+/* decrease spacing between image and codeblock on Team page */
+#collection-5e0a26c2afc7590ba0a3b45d
+ .sqs-block {
+ padding-bottom: 0px !important;
+}
+
+/*creates opaque rollover effect for text links on Team page 
+#collection-5e0a26c2afc7590ba0a3b45d
+a:hover {
+background-color: #00000; opacity: 0.6; transition: all .3s ease-in-out;}
+
+/*creates opaque rollover effect for regular image blocks on Team page 
+#collection-5e0a26c2afc7590ba0a3b45d
+a:hover img {
+background-color: #00000; opacity: 0.6; transition: all .3s ease-in-out;}
+*/
+
+/* Danielle */
+#block-yui_3_17_2_1_1603915738299_61644 {
+  position:relative;
+  margin:0 auto;
+}
+
+#block-yui_3_17_2_1_1603915738299_61644 img {
+  position:absolute;
+  left:0;
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#block-yui_3_17_2_1_1603915738299_61644 img.loaded:hover {
+  opacity:0;
+}
+/*Jason Franklin*/
+#block-76b0ced63f31cd9e2342 {
+  position:relative;
+  margin:0 auto;
+}
+
+#block-76b0ced63f31cd9e2342 img {
+  position:absolute;
+  left:0;
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#block-76b0ced63f31cd9e2342 img.loaded:hover {
+  opacity:0;
+}
+
+
+/*Leslie Lenzo*/
+#block-c941ef6bbc69f7b10dbb {
+  position:relative;
+  margin:0 auto;
+}
+
+#block-c941ef6bbc69f7b10dbb img {
+  position:absolute;
+  left:0;
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#block-c941ef6bbc69f7b10dbb img.loaded:hover {
+  opacity:0;
+}
+
+/*Stacy Lewis*/
+#block-yui_3_17_2_1_1604001558666_15429 {
+  position:relative;
+  margin:0 auto;
+}
+
+#block-yui_3_17_2_1_1604001558666_15429 img {
+  position:absolute;
+  left:0;
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#block-yui_3_17_2_1_1604001558666_15429 img.loaded:hover {
+  opacity:0;
+}
+
+/*Robert Locke*/
+#block-436e86330fcd1f38f7f4 {
+  position:relative;
+  margin:0 auto;
+}
+
+#block-436e86330fcd1f38f7f4 img {
+  position:absolute;
+  left:0;
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#block-436e86330fcd1f38f7f4 img.loaded:hover {
+  opacity:0;
+}
+
+/*Matt Maurer*/
+#block-yui_3_17_2_1_1603913892502_66234 {
+  position:relative;
+  margin:0 auto;
+}
+
+#block-yui_3_17_2_1_1603913892502_66234 img {
+  position:absolute;
+  left:0;
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#block-yui_3_17_2_1_1603913892502_66234 img.loaded:hover {
+  opacity:0;
+}
+
+/*Steve Robinson*/
+#block-8031bea02089f358316e {
+  position:relative;
+  margin:0 auto;
+}
+
+#block-8031bea02089f358316e img {
+  position:absolute;
+  left:0;
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#block-8031bea02089f358316e img.loaded:hover {
+  opacity:0;
+}
+
+/*Craig Schedler*/
+#block-df36591cc72d1fc5b195 {
+  position:relative;
+  margin:0 auto;
+}
+
+#block-df36591cc72d1fc5b195 img {
+  position:absolute;
+  left:0;
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#block-df36591cc72d1fc5b195 img.loaded:hover {
+  opacity:0;
+}

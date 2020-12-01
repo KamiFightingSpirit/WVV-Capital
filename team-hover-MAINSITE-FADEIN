@@ -12,12 +12,22 @@
     //End Danielle D'Agostaro
 
     //Jason Franklin
-    $('#block-76b0ced63f31cd9e2342').mouseover(function() {
-    	$( "#block-76b0ced63f31cd9e2342 .thumb-image" ).attr("src","https://static1.squarespace.com/static/5cae826d21d24e00012dc02b/t/5fc2881b9ee0f32b87a52a14/1606584347864/Jason_Art.jpg");
-    });
-	$('#block-76b0ced63f31cd9e2342').mouseout(function() {
-    	$( "#block-76b0ced63f31cd9e2342 .thumb-image" ).attr("src","https://static1.squarespace.com/static/5cae826d21d24e00012dc02b/t/5e0a26c2afc7590ba0a3b443/1603914016365/Jason-5941.jpg");
-    })
+ //    $('#block-76b0ced63f31cd9e2342').mouseover(function() {
+ //    	$( "#block-76b0ced63f31cd9e2342 .thumb-image" ).attr("src","https://static1.squarespace.com/static/5cae826d21d24e00012dc02b/t/5fc2881b9ee0f32b87a52a14/1606584347864/Jason_Art.jpg");
+ //    });
+	// $('#block-76b0ced63f31cd9e2342').mouseout(function() {
+ //    	$( "#block-76b0ced63f31cd9e2342 .thumb-image" ).attr("src","https://static1.squarespace.com/static/5cae826d21d24e00012dc02b/t/5e0a26c2afc7590ba0a3b443/1603914016365/Jason-5941.jpg");
+ //    })
+
+	$(function() {
+  		if ($('#bottom-art-jason').length) return; // only add once
+
+  		var jsonArt = '<img id="bottom-art-jason" src="https://static1.squarespace.com/static/5cae826d21d24e00012dc02b/t/5fc2881b9ee0f32b87a52a14/1606584347864/Jason_Art.jpg" class="thumb-image" />';
+
+  	$('#block-76b0ced63f31cd9e2342').prepend(jsonArt);
+	});
+
+
  	//End Jason Franklin
 
 	/**
