@@ -56,55 +56,7 @@ background-color: #00000; opacity: 0.6; transition: all .3s ease-in-out;}
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
 }
-/*Reveals the Art image on Hover (when available)*/
+/*Reveals the Art image on Hover (when image is available)*/
 .thumb-image + noscript + .image-position.loaded:hover {
   opacity:0;
-}
-
-/* Danielle */
-#block-yui_3_17_2_1_1603915738299_61644 {
-  position:relative;
-  margin:0 auto;
-}
-
-/*Jason Franklin */
-#block-76b0ced63f31cd9e2342 {
-  position:relative;
-  margin:0 auto;
-}
-
-/*Leslie Lenzo*/
-#block-c941ef6bbc69f7b10dbb {
-  position:relative;
-  margin:0 auto;
-}
-
-/*Stacy Lewis*/
-#block-yui_3_17_2_1_1604001558666_15429 {
-  position:relative;
-  margin:0 auto;
-}
-
-/*Robert Locke*/
-#block-436e86330fcd1f38f7f4 {
-  position:relative;
-  margin:0 auto;
-}
-
-/*Matt Maurer*/
-#block-yui_3_17_2_1_1603913892502_66234 {
-  position:relative;
-  margin:0 auto;
-}
-
-/*Steve Robinson*/
-#block-8031bea02089f358316e {
-  position:relative;
-  margin:0 auto;
-}
-
-/*Craig Schedler*/
-#block-df36591cc72d1fc5b195 {
-  position:relative;
-  margin:0 auto;
 }
