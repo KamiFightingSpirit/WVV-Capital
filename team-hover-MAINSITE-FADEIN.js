@@ -15,6 +15,7 @@
   		$('#block-76b0ced63f31cd9e2342 .image-block-wrapper').prepend(jasonArt);
    	});
    	//END Jason Franklin
+   	
 	/**
 		Leslie Lenzo, CFA
 		****************************************************
