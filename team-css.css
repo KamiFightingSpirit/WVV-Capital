@@ -1,8 +1,9 @@
-/* grayscale home logo gallery images  */
+/* Home Page - grayscale home logo gallery images  */
  #block-yui_3_17_2_1_1570126796766_11179 img {
     -webkit-filter: grayscale(100%); /*For browser support*/
    filter: grayscale(100%);
   }
+
 
 /* remove hyphens */
 p, h1, h2, h3 {
@@ -35,18 +36,7 @@ p, h1, h2, h3 {
  padding-bottom: 0px !important;
 }
 
-/*creates opaque rollover effect for text links on Team page 
-#collection-5e0a26c2afc7590ba0a3b45d
-a:hover {
-background-color: #00000; opacity: 0.6; transition: all .3s ease-in-out;}
-
-/*creates opaque rollover effect for regular image blocks on Team page 
-#collection-5e0a26c2afc7590ba0a3b45d
-a:hover img {
-background-color: #00000; opacity: 0.6; transition: all .3s ease-in-out;}
-*/
-
-/* Added to each image to setup hover effect */
+/* Added to each image to setup hover effect on Team Page */
 .image-position {
   position:absolute;
   left:0;
@@ -56,7 +46,7 @@ background-color: #00000; opacity: 0.6; transition: all .3s ease-in-out;}
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
 }
-/*Reveals the Art image on Hover (when image is available)*/
+/*Reveals the Art image on Hover (when image is available) on Team Page*/
 .thumb-image + noscript + .image-position.loaded:hover {
   opacity:0;
 }
