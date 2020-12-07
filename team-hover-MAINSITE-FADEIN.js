@@ -2,16 +2,37 @@
 
 (function($) {
   	if ($('#bottom-art-danielle').length) return; // only add once
-  	//START Danielle D'Agostaro
+  	
+	/**
+		Danielle D'Agostaro
+		****************************************************
+		Block-ID:
+			block-yui_3_17_2_1_1603915738299_61644
+		Art:
+			https://static1.squarespace.com/static/5cae826d21d24e00012dc02b/t/5fc29057cb3e0f5771a3629b/1606586457570/Danielle_Art.jpg
+		Plain:
+			https://images.squarespace-cdn.com/content/v1/5cae826d21d24e00012dc02b/1603917510862-L39EP3KNT8M9RDH8A94E/ke17ZwdGBToddI8pDm48kKaTVuD7YHb7wRPju8oqY6J7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UThCi8D0XusHafWejgc2tI1BtSBVunXyFfqDTnmmWWDml4I0KDeTo5c4Onxt7bt-VQ/RG0A0265_.jpg
+		****************************************************	
+	**/
 	$("#block-yui_3_17_2_1_1603915738299_61644 .thumb-image").on("load", () => {
   		var danielleArt = '<img id="bottom-art-danielle" src="https://static1.squarespace.com/static/5cae826d21d24e00012dc02b/t/5fc29057cb3e0f5771a3629b/1606586457570/Danielle_Art.jpg" class="thumb-image loaded" style="left: 0%; top: 0%; width: 100%; height: 100%; position: absolute;"/>';
   		$('#block-yui_3_17_2_1_1603915738299_61644 .image-block-wrapper').prepend(danielleArt);
    	});
   	//END Danielle D'Agostaro
 
-  	//START Jason Franklin
+	/**
+		Jason Franklin
+		****************************************************
+		Block-ID:
+			block-76b0ced63f31cd9e2342
+		Art:
+			https://static1.squarespace.com/static/5cae826d21d24e00012dc02b/t/5fc2881b9ee0f32b87a52a14/1606584347864/Jason_Art.jpg
+		Plain:
+			https://images.squarespace-cdn.com/content/v1/5cae826d21d24e00012dc02b/1569292121642-K8PA2TLJ0UD8W63STSXE/ke17ZwdGBToddI8pDm48kMYkQxuz6zo4CXk5p09nd-5Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpy9aWa4H-bxLZTUr8O5zF3nsM8zdxNGL8MoW1CjgdRzaQ_t1PaXDsKRWu_XKYRYM04/Jason-5941.jpg
+		****************************************************	
+	**/
   	$("#block-76b0ced63f31cd9e2342 .thumb-image").on("load", () => {
-  		var jasonArt = '<img id="bottom-art-jason" src="https://static1.squarespace.com/static/5fbc13ab28cdca2d92d13045/t/5fbd6f1fc40cee429f55218e/1606250271337/Jason_Art.jpg" class="thumb-image loaded" style="left: 0%; top: -1.76471%; width: 100%; height: 103.529%; position: absolute;"/>';
+  		var jasonArt = '<img id="bottom-art-jason" src="https://static1.squarespace.com/static/5cae826d21d24e00012dc02b/t/5fc2881b9ee0f32b87a52a14/1606584347864/Jason_Art.jpg" class="thumb-image loaded" style="left: 0%; top: -1.76471%; width: 100%; height: 103.529%; position: absolute;"/>';
   		$('#block-76b0ced63f31cd9e2342 .image-block-wrapper').prepend(jasonArt);
    	});
    	//END Jason Franklin
