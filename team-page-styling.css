@@ -21,7 +21,7 @@ p, h1, h2, h3 {
     padding-bottom: 0px !important;
 }
 .Footer-blocks--middle{
-  display:none;
+  display: none;
  }
 
 /* TEAM PAGE - decrease spacing between image and codeblock */
@@ -39,7 +39,7 @@ p, h1, h2, h3 {
 /* TEAM PAGE - Added to each image to setup hover effect on Team Page */
 .image-position {
   position:absolute;
-  left:0;
+  left: 0;
   opacity: 1;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
@@ -48,5 +48,5 @@ p, h1, h2, h3 {
 }
 /* TEAM PAGE - Reveals the Art image on Hover (when image is available)*/
 .thumb-image + noscript + .image-position.loaded:hover {
-  opacity:0;
+  opacity: 0;
 }
