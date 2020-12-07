@@ -1,4 +1,4 @@
-/* Home Page - grayscale home logo gallery images  */
+/* HOME PAGE - grayscale home logo gallery images  */
  #block-yui_3_17_2_1_1570126796766_11179 img {
     -webkit-filter: grayscale(100%); /*For browser support*/
    filter: grayscale(100%);
@@ -24,19 +24,19 @@ p, h1, h2, h3 {
   display:none;
  }
 
-/* decrease spacing between image and codeblock on Team page */
+/* TEAM PAGE - decrease spacing between image and codeblock */
 #collection-5d892eca8d2eb93d33c44b48
   .sqs-block {
  padding-bottom: 0px !important;
 }
 
-/* decrease spacing between image and codeblock on Team page */
+/* TEAM PAGE - decrease spacing between image and codeblock */
 #collection-5e0a26c2afc7590ba0a3b45d
  .sqs-block {
  padding-bottom: 0px !important;
 }
 
-/* Added to each image to setup hover effect on Team Page */
+/* TEAM PAGE - Added to each image to setup hover effect on Team Page */
 .image-position {
   position:absolute;
   left:0;
@@ -46,7 +46,7 @@ p, h1, h2, h3 {
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
 }
-/*Reveals the Art image on Hover (when image is available) on Team Page*/
+/* TEAM PAGE - Reveals the Art image on Hover (when image is available)*/
 .thumb-image + noscript + .image-position.loaded:hover {
   opacity:0;
 }
